@@ -578,6 +578,7 @@ h3.my-profession {
 }
 
 .service .service-item {
+  margin-top: 50px;
   margin-bottom: 30px;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -655,7 +656,7 @@ h3.my-profession {
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .portfolio .portfolio-item-inner {
@@ -846,6 +847,7 @@ h3.my-profession {
   height: 50px;
   transition: 0.3s;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .social-links a:hover {
