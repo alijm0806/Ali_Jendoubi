@@ -868,3 +868,75 @@ h3.my-profession {
   line-height: 1;
   font-size: 35px;
 }
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -45px;
+
+}
+
+.portfolio-item:hover .links {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.links a {
+  opacity: 0;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: center;
+  background: var(--skin-color);
+  color: #fff;
+  line-height: 1;
+  padding: 4px 0;
+  margin: 4px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  width: 25%;
+  height: 30px;
+}
+
+.portfolio-item:hover .links a:hover {
+  background: var(--text-black-900);
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-item:hover .links a {
+  opacity: 1;
+  font-size: 18px;
+  display: inline-block;
+  justify-content: center;
+  background: var(--skin-color, 0.2);
+  color: #fff;
+  line-height: 1;
+  padding: 4px 0;
+  margin: 4px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  width: 25%;
+  height: 30px;
+  pointer-events: auto;
+  transition: all 0.2s
+}
+
+.links i {
+  opacity: 1;
+  width: 20px;
+  height: 203x;
+  font-size: 25px;
+}
+
+.portfolio-item:hover .links a:hover i {
+
+  color: var(--skin-color);
+  text-decoration: none;
+}
