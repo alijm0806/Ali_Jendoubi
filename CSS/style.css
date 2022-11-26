@@ -874,8 +874,8 @@ h3.my-profession {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: -45px;
-
+  margin-bottom: 45px;
+  transition: .1s linear;
 }
 
 .portfolio-item:hover .links {
@@ -883,7 +883,8 @@ h3.my-profession {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 0;
+  transition: .05s linear;
 }
 
 .links a {
@@ -893,7 +894,7 @@ h3.my-profession {
   justify-content: center;
   background: var(--skin-color);
   color: #fff;
-  line-height: 1;
+  line-height: 0.8;
   padding: 4px 0;
   margin: 4px;
   border-radius: 10px;
@@ -907,6 +908,7 @@ h3.my-profession {
   background: var(--text-black-900);
   color: #fff;
   text-decoration: none;
+  border: 2px solid var(--skin-color);
 }
 
 .portfolio-item:hover .links a {
@@ -925,18 +927,20 @@ h3.my-profession {
   width: 25%;
   height: 30px;
   pointer-events: auto;
-  transition: all 0.2s
+  transition: all 0.2s;
+  margin-bottom: 5px;
+  border: 2px solid var(--text-black-900);
 }
 
 .links i {
   opacity: 1;
   width: 20px;
-  height: 203x;
+  height: 20px;
   font-size: 25px;
+  line-height: 0.8;
 }
 
 .portfolio-item:hover .links a:hover i {
-
   color: var(--skin-color);
   text-decoration: none;
 }
